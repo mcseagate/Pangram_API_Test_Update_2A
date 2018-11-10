@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class GetTest extends TestBase {
+public class GetTest extends TestBase{
     TestBase test;
     GetClient GC;
 
