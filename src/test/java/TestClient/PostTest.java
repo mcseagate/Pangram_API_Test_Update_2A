@@ -26,7 +26,7 @@ public class PostTest extends TestBase {
         GC = new GetClient();
         GC.get(prop.getProperty("url"));
         HashMap<String, String> headerMap = new HashMap<String, String>();
-        headerMap.put("Content-Type", "application/json");
+        headerMap.put("X-Content-Type-Options", "application/json");
 
         ObjectMapper mapper = new ObjectMapper();
         Users users = new Users("pangram");
